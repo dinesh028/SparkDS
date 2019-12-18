@@ -1,6 +1,6 @@
 # SparkDS
 These repository consist of Machine Learning examples with Spark.
-Refer - 
+Refer - <br/>
 https://querydb.blogspot.com/2019/12/machine-learning-part-1.html
 <br/>
 https://querydb.blogspot.com/2019/12/machine-learning-part-2.html
