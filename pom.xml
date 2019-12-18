@@ -11,7 +11,7 @@
 		<scalaBinaryVersion>2.11</scalaBinaryVersion>
 		<sparkVersion>2.2.0</sparkVersion>
 		<hadoopVersion>2.6.0</hadoopVersion>
-		<spring.version>5.2.2.RELEASE</spring.version>
+		<spring.version>4.3.2.RELEASE</spring.version>
 		<hbase.version>1.1.2</hbase.version>
 		<release.description>Spark DS</release.description>
 		<phoenix.version>4.7.0-HBase-1.1</phoenix.version>
