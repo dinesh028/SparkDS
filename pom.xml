@@ -12,11 +12,17 @@
 		<sparkVersion>2.2.0</sparkVersion>
 		<hadoopVersion>2.6.0</hadoopVersion>
 		<spring.version>4.3.2.RELEASE</spring.version>
-		<hbase.version>1.1.2</hbase.version>
+		<hbase.version>2.0.0</hbase.version>
 		<release.description>Spark DS</release.description>
 		<phoenix.version>4.7.0-HBase-1.1</phoenix.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.apache.spark</groupId>
+			<artifactId>spark-sql-kafka-0-10_2.11</artifactId>
+			<version>${sparkVersion}</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.phoenix</groupId>
 			<artifactId>phoenix-spark</artifactId>

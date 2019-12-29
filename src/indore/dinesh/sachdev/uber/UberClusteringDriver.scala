@@ -21,7 +21,7 @@ object UberClusteringDriver {
     import spark.implicits._
 
     // path to dataset file
-    var file: String = "D:/data/uber.csv"
+    var file: String = "/data/uber.csv"
 
     //Read the data set
     val df: Dataset[Uber] = spark.read
@@ -91,7 +91,7 @@ object UberClusteringDriver {
     spark.sql("SELECT hour(uber.dt) as hr, cid, count(cid) as ct FROM uber WHERE cid IN (0,1,4,9, 10,11,16,15) and hour(uber.dt) IN (16,17,18,19) group By hour(uber.dt), cid order by hr, cid").show
     
     //Save model
-    model.write.overwrite().save("D:/data/uber")
+    model.write.overwrite().save("/data/uber")
     
     /*Load Model 
      * val sameModel = KMeansModel.load(savedirectory)*/
