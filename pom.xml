@@ -10,7 +10,7 @@
 		<scalaVersion>2.11.8</scalaVersion>
 		<scalaBinaryVersion>2.11</scalaBinaryVersion>
 		<sparkVersion>2.2.0</sparkVersion>
-		<hadoopVersion>2.6.0</hadoopVersion>
+		<hadoopVersion>2.7.0</hadoopVersion>
 		<spring.version>4.3.2.RELEASE</spring.version>
 		<hbase.version>2.0.0</hbase.version>
 		<release.description>Spark DS</release.description>
